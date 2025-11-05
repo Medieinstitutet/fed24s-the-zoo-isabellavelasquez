@@ -62,7 +62,7 @@ export default tseslint.config({
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-isabellavelasquez\src\reducers\animalReducer.ts - no-unused-vars - 'FED' is defined but never used.,no-unused-vars - 'FETCHED' is defined but never used.
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller de flesta av kraven och är generellt välstrukturerat, men saknar vissa utvidgade ESLint-konfigurationer och pluginer som skulle kunna förbättra koden.
+📌 **Motivering:** Projektet uppfyller kraven för React, TypeScript, och Vite setup med korrekt användning av ESLint för kodstandarder. Koden är välstrukturerad och följer best practices.
 
 💡 **Förbättringsförslag:**  
-Lägg till strängare typkontroll i ESLint och använd React-specifika pluginer för att förbättra underhållbarhet och korrekthet.
+Det skulle vara fördelaktigt att inkludera 'eslint-plugin-react-x' och 'eslint-plugin-react-dom' för att ytterligare stärka kodkvaliteten och följa uppdragsbeskrivningen. Annars inga större förbättringar behövs.
