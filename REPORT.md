@@ -62,7 +62,7 @@ export default tseslint.config({
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-isabellavelasquez\src\reducers\animalReducer.ts - no-unused-vars - 'FED' is defined but never used.,no-unused-vars - 'FETCHED' is defined but never used.
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Koden täcker grundläggande krav för React + TypeScript + Vite. Den använder useContext och useReducer effektivt för globalt tillståndshantering och React Router för navigering. Dock finns det små förbättringsmöjligheter som kan höja kvaliteten.
+📌 **Motivering:** Projektet uppfyller de flesta av kraven och är generellt välstrukturerat, men saknar vissa utvidgade ESLint-konfigurationer och pluginer som skulle kunna förbättra koden.
 
 💡 **Förbättringsförslag:**  
-Det finns några kodkvalitetsaspekter som kan förbättras. En klar förbättring skulle vara att lägga till testning för komponenterna och använda PropTypes för att validera filtreringslogik. Felhantering i API-anropen kan stärkas genom att hantera exceptions vid asynkrona operationer. Dessutom skulle ESLint-konfigurationen kunna utökas med type-aware lint regler för att säkerställa en ännu striktare typkontroll.
+Lägg till strängare typkontroll i ESLint och använd React-specifika pluginer för att förbättra underhållbarhet och korrekthet.
