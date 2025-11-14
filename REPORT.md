@@ -66,11 +66,11 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 Ha roligt, skratta och lär er massor!
 
 ## 🔍 ESLint-varningar:
-- C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-isabellavelasquez\src\helpers\animalsHelper.ts - no-unused-vars - 'FULL' is defined but never used.,no-unused-vars - 'ALMOST_HUNGRY' is defined but never used.,no-unused-vars - 'HUNGRY' is defined but never used.,no-unused-vars - 'STARVING' is defined but never used.
-- C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-isabellavelasquez\src\reducers\animalReducer.ts - no-unused-vars - 'FED' is defined but never used.,no-unused-vars - 'FETCHED' is defined but never used.
+- /app/repos/fed24s-the-zoo-isabellavelasquez/src/helpers/animalsHelper.ts - no-unused-vars - 'FULL' is defined but never used.,no-unused-vars - 'ALMOST_HUNGRY' is defined but never used.,no-unused-vars - 'HUNGRY' is defined but never used.,no-unused-vars - 'STARVING' is defined but never used.
+- /app/repos/fed24s-the-zoo-isabellavelasquez/src/reducers/animalReducer.ts - no-unused-vars - 'FED' is defined but never used.,no-unused-vars - 'FETCHED' is defined but never used.
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet uppfyller alla krav för både G och VG. Koden är välstrukturerad, följer best practices och har bra felhantering. Användningen av context, reducers och subtila animeringar är väl genomförd. Trots att det finns vissa upprepningar i koden, är den övergripande kvaliteten hög och projektet visar en stark förståelse för frontend-utveckling.
+## 🏆 **Betyg: G**
+📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyget G. Koden är organiserad på ett logiskt sätt, med en tydlig struktur för komponenter och moduler. De flesta konventioner för frontend-utveckling följs, och funktionaliteten för att visa och mata djur är implementerad. Felhantering för trasiga bildlänkar är korrekt hanterad. Projektet använder en router för att navigera mellan sidor och har implementerat en annan teknik än ren CSS för styling. För att nå VG-nivå krävs ytterligare implementeringar av avancerade tekniker som context, reducers och datahämtning med tjänster eller custom hooks.
 
 💡 **Förbättringsförslag:**  
-För att ytterligare förbättra projektet kan upprepningar i koden minskas genom att abstrahera gemensam logik till hjälpfunktioner eller hooks. Detta skulle förbättra kodens underhållbarhet och läsbarhet. Dessutom kan det vara värdefullt att säkerställa att alla tidsvillkor för matning är korrekt implementerade och testade.
+För att nå VG-nivå behöver projektet implementera datahämtning med tjänster eller en custom hook, använda context för komponentkommunikation istället för props, och använda reducers istället för state för djurhantering. Matningsstatus bör nollställas korrekt vid återgång till djur-sidan. Subtila animeringar vid knapptryckningar och sidladdningar skulle också förbättra användarupplevelsen. Kodkvaliteten kan förbättras genom att minska upprepningar och säkerställa att alla delar av koden är välkommenterade för bättre läsbarhet.
