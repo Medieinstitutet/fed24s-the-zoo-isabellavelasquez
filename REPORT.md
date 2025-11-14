@@ -70,7 +70,7 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-isabellavelasquez\src\reducers\animalReducer.ts - no-unused-vars - 'FED' is defined but never used.,no-unused-vars - 'FETCHED' is defined but never used.
 
 ## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet uppfyller alla krav för både G och VG. Koden är välstrukturerad, funktionell och följer best practices för frontend-utveckling. Användningen av context API och reducers visar på en god förståelse för avancerade koncept. Projektet har inga kritiska buggar och gränssnittet är både användarvänligt och visuellt tilltalande.
+📌 **Motivering:** Projektet uppfyller alla krav för både G och VG. Koden är välstrukturerad, följer best practices och har bra felhantering. Användningen av context, reducers och subtila animeringar är väl genomförd. Trots att det finns vissa upprepningar i koden, är den övergripande kvaliteten hög och projektet visar en stark förståelse för frontend-utveckling.
 
 💡 **Förbättringsförslag:**  
-Förbättra felhanteringen genom att lägga till mer användarvänliga felmeddelanden. Minska kodupprepning genom att extrahera gemensam logik till hjälpfunktioner eller hooks. Implementera en fallback-bild för trasiga bildlänkar för att förbättra användarupplevelsen.
+För att ytterligare förbättra projektet kan upprepningar i koden minskas genom att abstrahera gemensam logik till hjälpfunktioner eller hooks. Detta skulle förbättra kodens underhållbarhet och läsbarhet. Dessutom kan det vara värdefullt att säkerställa att alla tidsvillkor för matning är korrekt implementerade och testade.
