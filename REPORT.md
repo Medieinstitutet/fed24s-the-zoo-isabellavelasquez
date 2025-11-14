@@ -69,8 +69,8 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-isabellavelasquez\src\helpers\animalsHelper.ts - no-unused-vars - 'FULL' is defined but never used.,no-unused-vars - 'ALMOST_HUNGRY' is defined but never used.,no-unused-vars - 'HUNGRY' is defined but never used.,no-unused-vars - 'STARVING' is defined but never used.
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-isabellavelasquez\src\reducers\animalReducer.ts - no-unused-vars - 'FED' is defined but never used.,no-unused-vars - 'FETCHED' is defined but never used.
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet uppfyller alla krav för både G och VG och består av välstrukturerad kod med korrekt användning av tekniker och mönster.
+## 🏆 **Betyg: G**
+📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyget G. Det använder en router för att hantera olika sidor, hanterar trasiga bildlänkar korrekt och använder en annan teknik än ren CSS för styling. Dock saknas flera av de mer avancerade kraven för VG-betyget, såsom användning av context och reducers, samt subtila animeringar.
 
 💡 **Förbättringsförslag:**  
-Inga större förbättringar behövs, men fortsatt dokumentation och moduluppdelning rekommenderas.
+För att nå VG-nivå bör studenten implementera datahämtning med tjänster eller en custom hook, använda context istället för props för komponentkommunikation, och hantera djurens status med reducers istället för state. Dessutom kan subtila animeringar vid interaktioner och sidladdningar förbättra användarupplevelsen.
